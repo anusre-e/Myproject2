@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\jithi\eclipse-workspace\Myproject2\sequentialtestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods, 3 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Customer_test" class="method navigator-link" hash-for-method="Customerpagedetails">Customerpagedetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Customer_test" class="method navigator-link" hash-for-method="Customerpagelaunch">Customerpagelaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Customer_test" class="method navigator-link" hash-for-method="Customersearch">Customersearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Categories_test" class="method navigator-link" hash-for-method="Addcategorydetails">Addcategorydetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Expense_test" class="method navigator-link" hash-for-method="Addexpensedetails">Addexpensedetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Waiters_test" class="method navigator-link" hash-for-method="Addwaitersdetails">Addwaitersdetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Categories_test" class="method navigator-link" hash-for-method="Categorypagelaunch">Categorypagelaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Categories_test" class="method navigator-link" hash-for-method="Categorysearch">Categorysearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Expense_test" class="method navigator-link" hash-for-method="Expensedropdown">Expensedropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Expense_test" class="method navigator-link" hash-for-method="Expensepagelaunch">Expensepagelaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Expense_test" class="method navigator-link" hash-for-method="Expensesearch">Expensesearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Login_test" class="method navigator-link" hash-for-method="Invalidlogin(admin, 7667771111111111111)">Invalidlogin(admin, 7667771111111111111)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Logout_test" class="method navigator-link" hash-for-method="Logout">Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Addpdt_test" class="method navigator-link" hash-for-method="Productpagedropdowndetails">Productpagedropdowndetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Addpdt_test" class="method navigator-link" hash-for-method="Productpagelaunch">Productpagelaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Addpdt_test" class="method navigator-link" hash-for-method="Productpagetextdetails">Productpagetextdetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Addpdt_test" class="method navigator-link" hash-for-method="Productsearch">Productsearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Addpdt_test" class="method navigator-link" hash-for-method="Productstockpage">Productstockpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Sales_test" class="method navigator-link" hash-for-method="Salespagelaunch">Salespagelaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Sales_test" class="method navigator-link" hash-for-method="Salessearch">Salessearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Settings_test" class="method navigator-link" hash-for-method="Settings">Settings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Stores_Testcase" class="method navigator-link" hash-for-method="Storepagedetails">Storepagedetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Stores_Testcase" class="method navigator-link" hash-for-method="Storepagelaunch">Storepagelaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Stores_Testcase" class="method navigator-link" hash-for-method="Storepagesearch">Storepagesearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Suppliers_test" class="method navigator-link" hash-for-method="Supplierpagelaunch">Supplierpagelaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Suppliers_test" class="method navigator-link" hash-for-method="Suppliersearch">Suppliersearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Suppliers_test" class="method navigator-link" hash-for-method="Supplierspagedetails">Supplierspagedetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Login_test" class="method navigator-link" hash-for-method="Validlogin">Validlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Waiters_test" class="method navigator-link" hash-for-method="Waitersearch">Waitersearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Waiters_test" class="method navigator-link" hash-for-method="Waiterspagedropdowndetails">Waiterspagedropdowndetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG_package.Waiters_test" class="method navigator-link" hash-for-method="Waiterspagelaunch">Waiterspagelaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestNG_package.Customer_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Customerpagedetails">
+                  </a> <!-- Customerpagedetails -->
+                  <span class="method-name">Customerpagedetails</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;pageElements.Customerpage.customerpagedetails()&quot; because &quot;this.objcustomer&quot; is null
+	at TestNG_package.Customer_test.Customerpagedetails(Customer_test.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Customerpagelaunch">
+                  </a> <!-- Customerpagelaunch -->
+                  <span class="method-name">Customerpagelaunch</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;pageElements.Customerpage.customerpagelaunch()&quot; because &quot;this.objcustomer&quot; is null
+	at TestNG_package.Customer_test.Customerpagelaunch(Customer_test.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Customersearch">
+                  </a> <!-- Customersearch -->
+                  <span class="method-name">Customersearch</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;pageElements.Customerpage.customersearch()&quot; because &quot;this.objcustomer&quot; is null
+	at TestNG_package.Customer_test.Customersearch(Customer_test.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG_package.Categories_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addcategorydetails">
+                  </a> <!-- Addcategorydetails -->
+                  <span class="method-name">Addcategorydetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Categorypagelaunch">
+                  </a> <!-- Categorypagelaunch -->
+                  <span class="method-name">Categorypagelaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Categorysearch">
+                  </a> <!-- Categorysearch -->
+                  <span class="method-name">Categorysearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG_package.Login_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalidlogin(admin, 7667771111111111111)">
+                  </a> <!-- Invalidlogin(admin, 7667771111111111111) -->
+                  <span class="method-name">Invalidlogin</span>
+                  <span class="parameters">(admin, 7667771111111111111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validlogin">
+                  </a> <!-- Validlogin -->
+                  <span class="method-name">Validlogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG_package.Addpdt_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Productpagedropdowndetails">
+                  </a> <!-- Productpagedropdowndetails -->
+                  <span class="method-name">Productpagedropdowndetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Productpagelaunch">
+                  </a> <!-- Productpagelaunch -->
+                  <span class="method-name">Productpagelaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Productpagetextdetails">
+                  </a> <!-- Productpagetextdetails -->
+                  <span class="method-name">Productpagetextdetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Productsearch">
+                  </a> <!-- Productsearch -->
+                  <span class="method-name">Productsearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Productstockpage">
+                  </a> <!-- Productstockpage -->
+                  <span class="method-name">Productstockpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG_package.Sales_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Salespagelaunch">
+                  </a> <!-- Salespagelaunch -->
+                  <span class="method-name">Salespagelaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Salessearch">
+                  </a> <!-- Salessearch -->
+                  <span class="method-name">Salessearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG_package.Logout_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout">
+                  </a> <!-- Logout -->
+                  <span class="method-name">Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG_package.Suppliers_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Supplierpagelaunch">
+                  </a> <!-- Supplierpagelaunch -->
+                  <span class="method-name">Supplierpagelaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Suppliersearch">
+                  </a> <!-- Suppliersearch -->
+                  <span class="method-name">Suppliersearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Supplierspagedetails">
+                  </a> <!-- Supplierspagedetails -->
+                  <span class="method-name">Supplierspagedetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG_package.Waiters_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addwaitersdetails">
+                  </a> <!-- Addwaitersdetails -->
+                  <span class="method-name">Addwaitersdetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Waitersearch">
+                  </a> <!-- Waitersearch -->
+                  <span class="method-name">Waitersearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Waiterspagedropdowndetails">
+                  </a> <!-- Waiterspagedropdowndetails -->
+                  <span class="method-name">Waiterspagedropdowndetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Waiterspagelaunch">
+                  </a> <!-- Waiterspagelaunch -->
+                  <span class="method-name">Waiterspagelaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG_package.Settings_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Settings">
+                  </a> <!-- Settings -->
+                  <span class="method-name">Settings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG_package.Expense_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addexpensedetails">
+                  </a> <!-- Addexpensedetails -->
+                  <span class="method-name">Addexpensedetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Expensedropdown">
+                  </a> <!-- Expensedropdown -->
+                  <span class="method-name">Expensedropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Expensepagelaunch">
+                  </a> <!-- Expensepagelaunch -->
+                  <span class="method-name">Expensepagelaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Expensesearch">
+                  </a> <!-- Expensesearch -->
+                  <span class="method-name">Expensesearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG_package.Stores_Testcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Storepagedetails">
+                  </a> <!-- Storepagedetails -->
+                  <span class="method-name">Storepagedetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Storepagelaunch">
+                  </a> <!-- Storepagelaunch -->
+                  <span class="method-name">Storepagelaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Storepagesearch">
+                  </a> <!-- Storepagesearch -->
+                  <span class="method-name">Storepagesearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jithi\eclipse-workspace\Myproject2\sequentialtestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Test1&quot;&gt;
+    &lt;parameter name=&quot;Url&quot; value=&quot;https://qalegend.com/restaurant/&quot;/&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNG_package.Login_test&quot;/&gt;
+      &lt;class name=&quot;TestNG_package.Addpdt_test&quot;/&gt;
+      &lt;class name=&quot;TestNG_package.Stores_Testcase&quot;/&gt;
+      &lt;class name=&quot;TestNG_package.Waiters_test&quot;/&gt;
+      &lt;class name=&quot;TestNG_package.Customer_test&quot;/&gt;
+      &lt;class name=&quot;TestNG_package.Suppliers_test&quot;/&gt;
+      &lt;class name=&quot;TestNG_package.Expense_test&quot;/&gt;
+      &lt;class name=&quot;TestNG_package.Sales_test&quot;/&gt;
+      &lt;class name=&quot;TestNG_package.Categories_test&quot;/&gt;
+      &lt;class name=&quot;TestNG_package.Settings_test&quot;/&gt;
+      &lt;class name=&quot;TestNG_package.Logout_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Invalidlogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Logout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Validlogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Validlogin')
+data.setCell(0, 2, 'TestNG_package.Login_test')
+data.setCell(0, 3, 19073);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Categorypagelaunch')
+data.setCell(1, 2, 'TestNG_package.Categories_test')
+data.setCell(1, 3, 19025);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Storepagelaunch')
+data.setCell(2, 2, 'TestNG_package.Stores_Testcase')
+data.setCell(2, 3, 18972);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Storepagedetails')
+data.setCell(3, 2, 'TestNG_package.Stores_Testcase')
+data.setCell(3, 3, 18626);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Waiterspagelaunch')
+data.setCell(4, 2, 'TestNG_package.Waiters_test')
+data.setCell(4, 3, 17821);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Supplierpagelaunch')
+data.setCell(5, 2, 'TestNG_package.Suppliers_test')
+data.setCell(5, 3, 17668);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Settings')
+data.setCell(6, 2, 'TestNG_package.Settings_test')
+data.setCell(6, 3, 17397);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Supplierspagedetails')
+data.setCell(7, 2, 'TestNG_package.Suppliers_test')
+data.setCell(7, 3, 16808);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Productpagetextdetails')
+data.setCell(8, 2, 'TestNG_package.Addpdt_test')
+data.setCell(8, 3, 16242);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Productpagedropdowndetails')
+data.setCell(9, 2, 'TestNG_package.Addpdt_test')
+data.setCell(9, 3, 15840);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Productpagelaunch')
+data.setCell(10, 2, 'TestNG_package.Addpdt_test')
+data.setCell(10, 3, 15076);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Productstockpage')
+data.setCell(11, 2, 'TestNG_package.Addpdt_test')
+data.setCell(11, 3, 14040);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Expensepagelaunch')
+data.setCell(12, 2, 'TestNG_package.Expense_test')
+data.setCell(12, 3, 13470);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Invalidlogin')
+data.setCell(13, 2, 'TestNG_package.Login_test')
+data.setCell(13, 3, 13177);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Expensedropdown')
+data.setCell(14, 2, 'TestNG_package.Expense_test')
+data.setCell(14, 3, 10685);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Productsearch')
+data.setCell(15, 2, 'TestNG_package.Addpdt_test')
+data.setCell(15, 3, 9613);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Waitersearch')
+data.setCell(16, 2, 'TestNG_package.Waiters_test')
+data.setCell(16, 3, 9428);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Storepagesearch')
+data.setCell(17, 2, 'TestNG_package.Stores_Testcase')
+data.setCell(17, 3, 9399);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Suppliersearch')
+data.setCell(18, 2, 'TestNG_package.Suppliers_test')
+data.setCell(18, 3, 9325);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Waiterspagedropdowndetails')
+data.setCell(19, 2, 'TestNG_package.Waiters_test')
+data.setCell(19, 3, 9253);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Categorysearch')
+data.setCell(20, 2, 'TestNG_package.Categories_test')
+data.setCell(20, 3, 9238);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Salessearch')
+data.setCell(21, 2, 'TestNG_package.Sales_test')
+data.setCell(21, 3, 9233);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Addcategorydetails')
+data.setCell(22, 2, 'TestNG_package.Categories_test')
+data.setCell(22, 3, 8776);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Addexpensedetails')
+data.setCell(23, 2, 'TestNG_package.Expense_test')
+data.setCell(23, 3, 6473);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Addwaitersdetails')
+data.setCell(24, 2, 'TestNG_package.Waiters_test')
+data.setCell(24, 3, 6373);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Expensesearch')
+data.setCell(25, 2, 'TestNG_package.Expense_test')
+data.setCell(25, 3, 6294);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Salespagelaunch')
+data.setCell(26, 2, 'TestNG_package.Sales_test')
+data.setCell(26, 3, 4205);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Logout')
+data.setCell(27, 2, 'TestNG_package.Logout_test')
+data.setCell(27, 3, 3733);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Customerpagelaunch')
+data.setCell(28, 2, 'TestNG_package.Customer_test')
+data.setCell(28, 3, 16);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Customerpagedetails')
+data.setCell(29, 2, 'TestNG_package.Customer_test')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Customersearch')
+data.setCell(30, 2, 'TestNG_package.Customer_test')
+data.setCell(30, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Login_test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Invalidlogin(admin, 7667771111111111111)</span>
+                <span class="method-start">11259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validlogin</span>
+                <span class="method-start">24451 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Addpdt_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Productpagelaunch</span>
+                <span class="method-start">43540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Productpagetextdetails</span>
+                <span class="method-start">58616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Productpagedropdowndetails</span>
+                <span class="method-start">74858 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Productstockpage</span>
+                <span class="method-start">90698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Productsearch</span>
+                <span class="method-start">104738 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Stores_Testcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Storepagelaunch</span>
+                <span class="method-start">114351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Storepagedetails</span>
+                <span class="method-start">133338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Storepagesearch</span>
+                <span class="method-start">151964 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Waiters_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Waiterspagelaunch</span>
+                <span class="method-start">161363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Addwaitersdetails</span>
+                <span class="method-start">179184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Waiterspagedropdowndetails</span>
+                <span class="method-start">185557 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Waitersearch</span>
+                <span class="method-start">194810 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Customer_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Customerpagelaunch</span>
+                <span class="method-start">204238 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Suppliers_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Supplierpagelaunch</span>
+                <span class="method-start">204254 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Customer_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Customerpagedetails</span>
+                <span class="method-start">204254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Customersearch</span>
+                <span class="method-start">204254 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Suppliers_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Supplierspagedetails</span>
+                <span class="method-start">221922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Suppliersearch</span>
+                <span class="method-start">238730 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Expense_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Expensepagelaunch</span>
+                <span class="method-start">248055 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Addexpensedetails</span>
+                <span class="method-start">261525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Expensedropdown</span>
+                <span class="method-start">267998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Expensesearch</span>
+                <span class="method-start">278691 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Sales_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Salespagelaunch</span>
+                <span class="method-start">284985 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Salessearch</span>
+                <span class="method-start">289190 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Categories_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Categorypagelaunch</span>
+                <span class="method-start">298423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Addcategorydetails</span>
+                <span class="method-start">317448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Categorysearch</span>
+                <span class="method-start">326224 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Settings_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Settings</span>
+                <span class="method-start">335462 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG_package.Logout_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Logout</span>
+                <span class="method-start">352859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">356592 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

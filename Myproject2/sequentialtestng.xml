@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test1" thread-count="1">
+  <parameter name="Browser" value="chrome"></parameter>
+<parameter name="Url" value="https://qalegend.com/restaurant/"></parameter>
+    <classes>
+        <class name="TestNG_package.Login_test"/>
+          <class name="TestNG_package.Addpdt_test"/>
+        <class name="TestNG_package.Stores_Testcase"/>
+           <class name="TestNG_package.Waiters_test"/>
+        <class name="TestNG_package.Customer_test"/>
+    
+      <class name="TestNG_package.Suppliers_test"/>
+     
+      <class name="TestNG_package.Expense_test"/>
+     
+  <!-- <class name="TestNG_package.extentreport1"/> -->
+   
+      
+      <class name="TestNG_package.Sales_test"/>
+   <class name="TestNG_package.Categories_test"/>
+      <class name="TestNG_package.Settings_test"/>
+         <class name="TestNG_package.Logout_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

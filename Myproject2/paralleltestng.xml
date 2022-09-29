@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  thread-count="2" parallel="tests">
+  
+<test   name="Test1" > 
+<parameter name="Browser" value="chrome"></parameter>
+<parameter name="Url" value="https://qalegend.com/restaurant/"></parameter>
+    <classes>
+    
+      <class name="TestNG_package.Login_test"/>
+
+    </classes>
+  </test> 
+   <!-- Test -->
+   
+  <test   name="Test2" > 
+<parameter name="Browser" value="firefox"></parameter>
+<parameter name="Url" value="https://qalegend.com/restaurant/"></parameter>
+    <classes>
+    
+      <class name="TestNG_package.Login_test"/>
+   
+    </classes>
+  </test>
+      
+
+</suite> 
+<!-- Suite -->
